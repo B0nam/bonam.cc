@@ -13,6 +13,14 @@ hugo --gc --minify   # production build into public/
 
 ## Writing a post
 
+**With Claude Code:** run `/publish-post path/to/draft.md`. The skill (`.claude/skills/publish-post/`) does the whole flow below:
+- fixes grammar and spelling
+- organizes the Markdown and lints it (`.markdownlint-cli2.jsonc`)
+- writes the front matter and builds the page bundle
+- pushes, then checks the deploy
+
+**By hand:**
+
 ```sh
 hugo new post/my-new-post/index.md
 ```

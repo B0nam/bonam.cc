@@ -1,0 +1,17 @@
+// Markdown lint rules for blog posts (used by the publish-post skill)
+{
+  "config": {
+    "default": true,
+    // Prose is written as one line per paragraph
+    "MD013": false,
+    // Hugo renders raw HTML (goldmark unsafe = true)
+    "MD033": false,
+    // Repeated headings are fine in different sections
+    "MD024": { "siblings_only": true },
+    "MD046": { "style": "fenced" },
+    "MD004": { "style": "dash" },
+    "MD049": { "style": "asterisk" },
+    "MD050": { "style": "asterisk" }
+  },
+  "ignores": ["public/**", "resources/**", "node_modules/**"]
+}
