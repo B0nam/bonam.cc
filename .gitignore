@@ -2,4 +2,5 @@ public
 resources
 .hugo_build.lock
 .DS_Store
-assets/jsconfig.json__pycache__/
+assets/jsconfig.json
+__pycache__/
