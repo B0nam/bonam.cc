@@ -61,5 +61,6 @@ The script reads `https://medium.com/feed/@danibonam` (it only has the 10 most r
 - `_partials/data/title.html` appends the site name to page titles.
 - `_partials/data/description.html` cleans up and shortens meta descriptions.
 - `robots.txt` points crawlers to the sitemap.
+- `_partials/footer/footer.html` shows only the copyright, without the theme credit.
 
 Dark mode colors are in `assets/scss/custom.scss`.

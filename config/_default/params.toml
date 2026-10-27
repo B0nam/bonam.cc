@@ -29,8 +29,7 @@ SortBy              = "default"
     readingTime   = true
 
     [article.license]
-        enabled = true
-        default = "Licensed under CC BY 4.0"
+        enabled = false
 
 [widgets]
     homepage = [
