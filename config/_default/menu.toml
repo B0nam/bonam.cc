@@ -1,0 +1,24 @@
+# Configure main menu and social menu
+[[social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/B0nam"
+
+    [social.params]
+        icon = "brand-github"
+
+[[social]]
+    identifier = "medium"
+    name       = "Medium"
+    url        = "https://medium.com/@danibonam"
+
+    [social.params]
+        icon = "brand-medium"
+
+[[social]]
+    identifier = "rss"
+    name       = "RSS"
+    url        = "/index.xml"
+
+    [social.params]
+        icon = "rss"
