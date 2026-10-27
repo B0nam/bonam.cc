@@ -3,7 +3,7 @@ title: "Dando acesso do meu navegador para uma IA (Testes E2E com Playwright MCP
 date: 2025-07-02T00:38:59+00:00
 slug: "dando-acesso-do-meu-navegador-para-uma-ia-testes-e2e-com-playwright-mcp"
 categories:
-    - "Testing"
+    - "AI"
 image: "01-1-gseuzw2va4g5zpj5o8ecdg.png"
 tags:
     - "mcp-server"

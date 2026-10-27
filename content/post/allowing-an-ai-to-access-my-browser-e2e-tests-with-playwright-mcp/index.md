@@ -3,7 +3,7 @@ title: "Allowing an AI to Access My Browser (E2E Tests with Playwright MCP)"
 date: 2025-07-02T00:38:49+00:00
 slug: "allowing-an-ai-to-access-my-browser-e2e-tests-with-playwright-mcp"
 categories:
-    - "Testing"
+    - "AI"
 image: "01-1-gseuzw2va4g5zpj5o8ecdg.png"
 tags:
     - "automation-testing"

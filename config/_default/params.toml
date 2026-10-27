@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = ""
-    subtitle = "Software engineer writing about smart cities, testing and AI."
+    subtitle = "Software engineer writing about tech stuff"
     avatar   = "img/avatar.png"
 
 [article]
