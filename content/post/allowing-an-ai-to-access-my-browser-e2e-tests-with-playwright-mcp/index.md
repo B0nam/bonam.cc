@@ -2,6 +2,8 @@
 title: "Allowing an AI to Access My Browser (E2E Tests with Playwright MCP)"
 date: 2025-07-02T00:38:49+00:00
 slug: "allowing-an-ai-to-access-my-browser-e2e-tests-with-playwright-mcp"
+description: "How to generate end-to-end tests with AI: set up Playwright MCP in VS Code so GitHub Copilot can drive a real browser and write Playwright tests."
+locale: "en_US"
 categories:
     - "AI"
 image: "01-1-gseuzw2va4g5zpj5o8ecdg.png"
@@ -14,6 +16,8 @@ tags:
     - "english"
 canonicalUrl: "https://danibonam.medium.com/allowing-an-ai-to-access-my-browser-e2e-tests-with-playwright-mcp-fac96964ca4f"
 mediumUrl: "https://danibonam.medium.com/allowing-an-ai-to-access-my-browser-e2e-tests-with-playwright-mcp-fac96964ca4f"
+sitemap:
+    disable: true
 ---
 A major challenge in building quality software is ensuring that everything keeps working as expected — even as the codebase changes. That’s where end-to-end (E2E) tests come in. They help validate that your application behaves correctly from the user’s perspective.
 

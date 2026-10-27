@@ -2,7 +2,8 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/favicon.png"
+favicon        = "" # icons are generated from assets/img/favicon.jpg in head/custom.html
+description    = "Daniel Bonam's blog on software engineering, test automation, AI and smart cities."
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -46,8 +47,14 @@ SortBy              = "default"
 
 [colorScheme]
     toggle  = true
-    default = "auto"
+    default = "dark"
 
 ## Comments
 [comments]
     enabled = false
+
+# Used for structured data (JSON-LD)
+[author]
+    name   = "Daniel Bonam Rissardi"
+    url    = "https://bonam.cc/about/"
+    sameAs = ["https://github.com/B0nam", "https://medium.com/@danibonam"]

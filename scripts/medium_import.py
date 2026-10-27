@@ -8,6 +8,9 @@ next to it. Existing bundles are skipped unless --force is given. Imported
 posts keep canonicalUrl pointing at Medium, since that is where they were
 first published.
 
+Posts are also kept out of the sitemap, since search engines should index
+the Medium original. Review the generated description before publishing.
+
 Note: Medium's feed only contains the 10 most recent posts.
 """
 import argparse
@@ -163,6 +166,19 @@ class MediumToMarkdown(HTMLParser):
         return text.strip() + "\n"
 
 
+def summarize(markdown, limit=155):
+    """First prose paragraph of the body, cut at a word boundary."""
+    for para in markdown.split("\n\n"):
+        para = para.strip()
+        if para and not para.startswith(("#", "!", "```", "-", ">")):
+            text = re.sub(r"[*`\[\]]|\(http[^)]*\)", "", para)
+            text = re.sub(r"\s+", " ", text).strip()
+            if len(text) <= limit:
+                return text
+            return text[:limit].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
+    return ""
+
+
 def yaml_str(value):
     return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
@@ -215,6 +231,8 @@ def import_item(item, force):
         f"title: {yaml_str(title)}",
         f"date: {date.isoformat()}",
         f"slug: {yaml_str(slug)}",
+        f"description: {yaml_str(summarize(body))}",
+        f"locale: {yaml_str('pt_BR' if lang == 'pt' else 'en_US')}",
     ]
     if cover:
         lines.append(f"image: {yaml_str(cover)}")
@@ -223,6 +241,8 @@ def import_item(item, force):
         *[f"    - {yaml_str(t)}" for t in tags],
         f"canonicalUrl: {yaml_str(link)}",
         f"mediumUrl: {yaml_str(link)}",
+        "sitemap:",
+        "    disable: true",
         "---",
         "",
     ]

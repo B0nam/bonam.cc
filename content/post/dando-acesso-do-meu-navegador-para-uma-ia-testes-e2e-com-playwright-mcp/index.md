@@ -2,6 +2,8 @@
 title: "Dando acesso do meu navegador para uma IA (Testes E2E com Playwright MCP)"
 date: 2025-07-02T00:38:59+00:00
 slug: "dando-acesso-do-meu-navegador-para-uma-ia-testes-e2e-com-playwright-mcp"
+description: "Como gerar testes E2E com IA: configure o Playwright MCP no VS Code para o GitHub Copilot controlar o navegador e escrever testes Playwright."
+locale: "pt_BR"
 categories:
     - "AI"
 image: "01-1-gseuzw2va4g5zpj5o8ecdg.png"
@@ -14,6 +16,8 @@ tags:
     - "português"
 canonicalUrl: "https://danibonam.medium.com/dando-acesso-do-meu-navegador-para-uma-ia-testes-e2e-com-playwright-mcp-f0ef93edb627"
 mediumUrl: "https://danibonam.medium.com/dando-acesso-do-meu-navegador-para-uma-ia-testes-e2e-com-playwright-mcp-f0ef93edb627"
+sitemap:
+    disable: true
 ---
 Um dos maiores desafios no desenvolvimento de software de qualidade é garantir que tudo continue funcionando como esperado, mesmo com mudanças constantes no código. É aí que entram os testes End to End. Eles ajudam a validar se sua aplicação está se comportando corretamente a partir do ponto de vista do usuário.
 

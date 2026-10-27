@@ -2,6 +2,8 @@
 title: "Search"
 slug: "search"
 layout: "search"
+sitemap:
+    disable: true
 outputs:
     - html
     - json

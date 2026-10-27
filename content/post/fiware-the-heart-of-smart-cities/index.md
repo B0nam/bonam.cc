@@ -2,6 +2,8 @@
 title: "FIWARE: the heart of smart cities"
 date: 2026-04-13T12:01:02+00:00
 slug: "fiware-the-heart-of-smart-cities"
+description: "What FIWARE is and how its Context Broker, NGSI entities and IoT agents give smart cities a common data language for traffic, lighting and more."
+locale: "en_US"
 categories:
     - "Smart Cities"
 image: "01-1-wmcb-z3c5vqbue8rurtl4g.png"
@@ -14,6 +16,8 @@ tags:
     - "english"
 canonicalUrl: "https://danibonam.medium.com/fiware-the-heart-of-smart-cities-66d9905f454e"
 mediumUrl: "https://danibonam.medium.com/fiware-the-heart-of-smart-cities-66d9905f454e"
+sitemap:
+    disable: true
 ---
 ## What is FIWARE
 

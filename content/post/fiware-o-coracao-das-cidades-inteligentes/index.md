@@ -2,6 +2,8 @@
 title: "FIWARE: o coração das cidades inteligentes"
 date: 2026-04-13T12:01:01+00:00
 slug: "fiware-o-coracao-das-cidades-inteligentes"
+description: "O que é o FIWARE e como o Context Broker, entidades NGSI e agentes IoT criam uma linguagem comum de dados para cidades inteligentes."
+locale: "pt_BR"
 categories:
     - "Smart Cities"
 image: "01-1-wmcb-z3c5vqbue8rurtl4g.png"
@@ -14,6 +16,8 @@ tags:
     - "português"
 canonicalUrl: "https://danibonam.medium.com/fiware-o-cora%C3%A7%C3%A3o-das-cidades-inteligentes-9cd7248a0532"
 mediumUrl: "https://danibonam.medium.com/fiware-o-cora%C3%A7%C3%A3o-das-cidades-inteligentes-9cd7248a0532"
+sitemap:
+    disable: true
 ---
 ## O que é FIWARE
 
